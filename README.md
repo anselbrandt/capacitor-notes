@@ -1,7 +1,23 @@
 # capacitor-notes
 
+
 ```
+npm install -g @ionic/cli
+
+npm init @capacitor/app
+```
+
+
+### iOS
+
+```
+sudo gem install cocoapods
+
 yarn add @capacitor/ios
+
+npx cap add ios
+
+yarn build
 
 npx cap open ios
 
